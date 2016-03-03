@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config major-version="1" minor-version="1" module="release" release-module="LocalizationData" release-side="client">
+  <!--F:/BNS/NCW/1.1.62.333/Client/live/bin/temp2/release.config2.xml-->
+  <option name="lobby-gate-address" value="64.25.35.29"/>
+  <option name="lobby-gate-port" value="10900"/>
+  <option name="np-program-id" value="342"/>
+  <option name="np-gamecode" value="bnsncwna"/>
+  <option name="np-address" value="64.25.35.100"/>
+  <option name="np-port" value="6600"/>
+  <option name="use-packed-data" value="true"/>
+  <option name="use-engine-data-share" value="false"/>
+  <option name="client-configration-sub-directory-name" value=""/>
+  <option name="np-bns-server-app-id" value="32748CE9-61DD-7309-04A2-416610F77CA1"/>
+  <option name="np-bns-client-app-id" value="95684EE8-121E-0275-3258-4339DAD72236"/>
+  <option name="np-bns-client-app-group-id" value="78"/>
+  <option name="np-in-game-web-app-id" value="A00E2088-4CDE-94E9-3937-A45E7D4776E9"/>
+  <option name="lobby-gate-address-2" value="206.127.154.14"/>
+  <option name="lobby-gate-port-2" value="10900"/>
+  <option name="np-program-id-2" value="343"/>
+  <option name="np-gamecode-2" value="bnsncweu"/>
+  <option name="np-address-2" value="64.25.35.100"/>
+  <option name="np-port-2" value="6600"/>
+  <option name="np-bns-server-app-id-2" value="5673BD8C-D81F-B480-32A4-CCDA4A758DEB"/>
+  <option name="np-bns-client-app-id-2" value="FBB46F0C-2E6F-FC3C-31E2-6AA5ACDE5DA0"/>
+  <option name="np-bns-client-app-group-id-2" value="78"/>
+  <option name="np-in-game-web-app-id-2" value="A00E2088-4CDE-94E9-3937-A45E7D4776E9"/>
+  <option name="np-external-web-app-id" value="2B8B8FCF-FD82-FDDC-0094-39FB650090F0"/>
+  <option name="np-external-web-app-id-2" value="2B8B8FCF-FD82-FDDC-0094-39FB650090F0"/>
+  <option name="ncwest-external-charge-url" value="https://purchase.ncsoft.com/ncoin/popupNCoin"/>
+  <option name="ncwest-external-charge-url-2" value="https://purchase.ncsoft.com/ncoin/popupNCoin"/>
+  <group name="in-game-web">
+    <option name="use-url-prefix" value="false"/>
+    <option name="url-prefix" value=""/>
+  </group>
+</config>

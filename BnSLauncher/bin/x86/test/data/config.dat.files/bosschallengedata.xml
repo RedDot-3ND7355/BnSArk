@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table release-module="AIData" release-side="client" type="boss-challenge" version="0.05">
+  <!--F:/BNS/NCW/1.1.62.333/Client/live/bin/temp2/bosschallengedata.xml-->
+  <record alias="Night_windplain_score" boss-challenge-desc="Desc.Night_windplain_score" boss-challenge-name2="BossChallenge.Name2.Night_windplain_score" group="BeakChung_EpicHigh" id="1" recommand-level-max="50" recommand-level-min="50" recommand-mastery-level-max="12" recommand-mastery-level-min="2" require-score="30000" required-level="1" required-preceding-quest-1="q_epic_1449" required-preceding-quest-2="q_epic_293" required-preceding-quest-check="or" reward-summary="reward-summary.Night_windplain_score" ui-text-grade="6" zone="5505"/>
+</table>

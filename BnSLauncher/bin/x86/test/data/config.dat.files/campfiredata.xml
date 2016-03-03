@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table release-module="ZoneData0" release-side="client" type="campfire" version="0.7">
+  <!--F:/BNS/NCW/1.1.62.333/Client/live/bin/temp2/campfiredata.xml-->
+  <record additional-heal-percent="100" alias="CampFire_0001" anim-show="00010628.CampFire" animset-name="Prop_Fire_001.Prop_Fire_001_10_001_Animset" despawn-show="00010628.CampFire_FireEnd" mesh-id="Prop_Fire_001.Prop_Fire_001_10_001_Mesh" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Amheukryoung" map-tooltip="PartyMatch.Desc.CampFire_Amheukryoung" party-match="PartyMatch_Amheukryoung" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Angsijokbon" map-tooltip="PartyMatch.Desc.CampFire_Angsijokbon" party-match="PartyMatch_Angsijokbon" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_BaekCheongPa_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_BaekCheongPa" party-match="PartyMatch_BaekCheongPa" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_BlackDragon_D_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_BlackDragon_D" party-match="PartyMatch_BlackDragon_D" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="Campfire_Bongin_NaRyuSeongJi_NotUsed" map-tooltip="PartyMatch.Desc.Campfire_Bongin_NaRyuSeongJi" party-match="PartyMatch_Bongin_NaRyuSeongJi" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Bunwajok" map-tooltip="PartyMatch.Desc.CampFire_Bunwajok" party-match="PartyMatch_Bunwajok" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_BuYuDo_Enter_Honchun_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_BuYuDo_Enter_Honchun" party-match="PartyMatch_BuYuDo_Enter_Honchun" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_BuYuDo_Enter_Murim_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_BuYuDo_Enter_Murim" party-match="PartyMatch_BuYuDo_Enter_Murim" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_BuYuDo_Honchun_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_BuYuDo_Honchun" party-match="PartyMatch_BuYuDo_Honchun" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_BuYuDo_Murim_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_BuYuDo_Murim" party-match="PartyMatch_BuYuDo_Murim" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_ChooAngka_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_ChooAngka" party-match="PartyMatch_ChooAngka" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_DongChungGakA" map-tooltip="PartyMatch.Desc.CampFire_DongChungGakA" party-match="PartyMatch_DongChungGakA" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_DongChungGakB" map-tooltip="PartyMatch.Desc.CampFire_DongChungGakB" party-match="PartyMatch_DongChungGakB" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Dongjjokkiji" map-tooltip="PartyMatch.Desc.CampFire_Dongjjokkiji" party-match="PartyMatch_Dongjjokkiji" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="Campfire_FarmIsland_NotUsed" map-tooltip="PartyMatch.Desc.Campfire_FarmIsland" party-match="PartyMatch_FarmIsland" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_FireGorilla" map-tooltip="PartyMatch.Desc.CampFire_FireGorilla" party-match="PartyMatch_FireGorilla" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_FireGorilla_50Lv_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_FireGorilla_50Lv" party-match="PartyMatch_FireGorilla_50Lv" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="Campfire_frozen_Storage_50Lv_NotUsed" map-tooltip="PartyMatch.Desc.Campfire_frozen_Storage_50Lv" party-match="PartyMatch_frozen_Storage_50Lv" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Geramhack" map-tooltip="PartyMatch.Desc.CampFire_Geramhack" party-match="PartyMatch_Geramhack" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Germidoonggi" map-tooltip="PartyMatch.Desc.CampFire_Germidoonggi" party-match="PartyMatch_Germidoonggi" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_GoldHaetae" map-tooltip="PartyMatch.Desc.CampFire_GoldHaetae" party-match="PartyMatch_GoldHaetae" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_GrimjaSupkeuk" map-tooltip="PartyMatch.Desc.CampFire_GrimjaSupkeuk" party-match="PartyMatch_GrimjaSupkeuk" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Gugubung" map-tooltip="PartyMatch.Desc.CampFire_Gugubung" party-match="PartyMatch_Gugubung" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="Campfire_HaeMuJin_NotUsed" map-tooltip="PartyMatch.Desc.Campfire_HaeMuJin" party-match="PartyMatch_HaeMuJin" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Hangaridansuldoga" map-tooltip="PartyMatch.Desc.CampFire_Hangaridansuldoga" party-match="PartyMatch_Hangaridansuldoga" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_HeMuJin_Classic" map-tooltip="PartyMatch.Desc.CampFire_HeMuJin_Classic" party-match="PartyMatch_HeMuJin_Classic" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_HeukBiJo" map-tooltip="PartyMatch.Desc.CampFire_HeukBiJo" party-match="PartyMatch_HeukBiJo" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_HeukChang" map-tooltip="PartyMatch.Desc.CampFire_HeukChang" party-match="PartyMatch_HeukChang" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="Campfire_HeukRyong_Epic6_NotUsed" map-tooltip="PartyMatch.Desc.Campfire_HeukRyong_Epic6" party-match="PartyMatch_HeukRyong_Epic6" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Hongdonjoksogul" map-tooltip="PartyMatch.Desc.CampFire_Hongdonjoksogul" party-match="PartyMatch_Hongdonjoksogul" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_HuekUmmLim_DF_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_HuekUmmLim_DF" party-match="PartyMatch_HuekUmmLim_DF" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="Campfire_HukChang_Classic_NotUsed" map-tooltip="PartyMatch.Desc.Campfire_HukChang_Classic" party-match="PartyMatch_HukChang_Classic" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Hwebijuk" map-tooltip="PartyMatch.Desc.CampFire_Hwebijuk" party-match="PartyMatch_Hwebijuk" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Ice_Shooting_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_Ice_Shooting" party-match="PartyMatch_Ice_Shooting" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_IronTurtle" map-tooltip="PartyMatch.Desc.CampFire_IronTurtle" party-match="PartyMatch_IronTurtle" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="campfire_KangRyuSi_Dark_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_KangRyuSi_Dark" party-match="PartyMatch_KangRyuSi_Dark" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Labyrinth_5600_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_Labyrinth_5600" party-match="PartyMatch_Labyrinth_5600" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Labyrinth_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_Labyrinth" party-match="PartyMatch_Labyrinth" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_MaMulGul" map-tooltip="PartyMatch.Desc.CampFire_MaMulGul" party-match="PartyMatch_MaMulGul" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_MudSoldierBoss" map-tooltip="PartyMatch.Desc.CampFire_MudSoldierBoss" party-match="PartyMatch_MudSoldierBoss" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_MukHwaMaNyear_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_MukHwaMaNyear" party-match="PartyMatch_MukHwaMaNyear" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Nakwongul" map-tooltip="PartyMatch.Desc.CampFire_Nakwongul" party-match="PartyMatch_Nakwongul" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_NasunMigung_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_NasunMigung" party-match="PartyMatch_NasunMigung" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Night_WindPlain_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_Night_WindPlain" party-match="PartyMatch_Night_WindPlain" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Nightmare_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_Nightmare" party-match="PartyMatch_Nightmare" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_NoiOk_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_NoiOk" party-match="PartyMatch_NoiOk" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_NoklimdoTreasureHouse_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_NoklimdoTreasureHouse" party-match="PartyMatch_NoklimdoTreasureHouse" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_PaCheon_blacksmith_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_PaCheon_blacksmith" party-match="PartyMatch_PaCheon_blacksmith" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_PaCheon_lite_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_PaCheon_lite" party-match="PartyMatch_PaCheon_lite" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_PoHwaRan_Classic" map-tooltip="PartyMatch.Desc.CampFire_PoHwaRan_Classic" party-match="PartyMatch_PoHwaRan_Classic" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="Campfire_RainbowLake_NotUsed" map-tooltip="PartyMatch.Desc.Campfire_RainbowLake" party-match="PartyMatch_RainbowLake" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_ResurrectionAltar_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_ResurrectionAltar" party-match="PartyMatch_ResurrectionAltar" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_SamCheonWang_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_SamCheonWang" party-match="PartyMatch_SamCheonWang" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Scorpion" map-tooltip="PartyMatch.Desc.CampFire_Scorpion" party-match="PartyMatch_Scorpion" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_SnowWoman_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_SnowWoman" party-match="PartyMatch_SnowWoman" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Static" map-tooltip="PartyMatch.Desc.CampFire_Static" remain-duration="0"/>
+  <record additional-heal-percent="100" alias="CampFire_Sukgoigul" map-tooltip="PartyMatch.Desc.CampFire_Sukgoigul" party-match="PartyMatch_Sukgoigul" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_SukSamJa" map-tooltip="PartyMatch.Desc.CampFire_SukSamJa" party-match="PartyMatch_SukSamJa" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_SulinDongGul_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_SulinDongGul" party-match="PartyMatch_SulinDongGul" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Sulokgung_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_Sulokgung" party-match="PartyMatch_Sulokgung" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Suwagung" map-tooltip="PartyMatch.Desc.CampFire_Suwagung" party-match="PartyMatch_Suwagung" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_TakgiGul" map-tooltip="PartyMatch.Desc.CampFire_TakgiGul" party-match="PartyMatch_TakgiGul" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_TakMaGul_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_TakMaGul" party-match="PartyMatch_TakMaGul" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Ukaha" map-tooltip="PartyMatch.Desc.CampFire_Ukaha" party-match="PartyMatch_Ukaha" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Wangsiljiha" map-tooltip="PartyMatch.Desc.CampFire_Wangsiljiha" party-match="PartyMatch_Wangsiljiha" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Whanmadan_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_Whanmadan" party-match="PartyMatch_Whanmadan" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="Campfire_WindPlain_BloodWind_HonCheon_NotUsed" map-tooltip="PartyMatch.Desc.Campfire_WindPlain_BloodWind_HonCheon" party-match="PartyMatch_WindPlain_BloodWind_HonCheon" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="Campfire_WindPlain_BloodWind_Murim_NotUsed" map-tooltip="PartyMatch.Desc.Campfire_WindPlain_BloodWind_Murim" party-match="PartyMatch_WindPlain_BloodWind_Murim" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="Campfire_WindPlain_MaJuk_NotUsed" map-tooltip="PartyMatch.Desc.Campfire_WindPlain_MaJuk" party-match="PartyMatch_WindPlain_MaJuk" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="campfire_YoungJiRun_NotUsed" map-tooltip="PartyMatch.Desc.CampFire_YoungjiRun" party-match="PartyMatch_YoungjiRun" remain-duration="300000"/>
+  <record additional-heal-percent="100" alias="CampFire_Youngrinyujuk" map-tooltip="PartyMatch.Desc.CampFire_Youngrinyujuk" party-match="PartyMatch_Youngrinyujuk" remain-duration="300000"/>
+</table>

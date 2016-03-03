@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table release-module="ItemData" release-side="client" type="ArenaPortal" version="0.13">
+  <!--F:/BNS/NCW/1.1.62.333/Client/live/bin/temp2/arenaportaldata.xml-->
+  <record alias="arena_duel" death-match-1vs1-1="Duel_Match_1vs1_01" death-match-1vs1-2="Duel_Match_1vs1_02" death-match-1vs1-3="Duel_Match_1vs1_03" death-match-1vs1-4="Duel_Match_1vs1_01" death-match-unrated-1="Duel_Unrated_1vs1_02" death-match-unrated-2="Duel_Unrated_1vs1_02" death-match-unrated-3="Duel_Unrated_1vs1_02" death-match-unrated-4="Duel_Unrated_1vs1_02" required-min-level="15" tag-match-3vs3-1="Tag_Match_3vs3_01" tag-match-3vs3-2="Tag_Match_3vs3_02" tag-match-3vs3-3="Tag_Match_3vs3_03" tag-match-3vs3-4="Tag_Match_3vs3_03" tag-match-unrated-1="Tag_Unrated_3vs3_02" tag-match-unrated-2="Tag_Unrated_3vs3_02" tag-match-unrated-3="Tag_Unrated_3vs3_02" tag-match-unrated-4="Tag_Unrated_3vs3_02" type="duel"/>
+  <record alias="arena_dungeon" required-min-level="15" type="dungeon"/>
+</table>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table release-module="ZoneData0" release-side="client" type="cave" version="0.4">
+  <!--F:/BNS/NCW/1.1.62.333/Client/live/bin/temp2/cavedata.xml-->
+  <record alias="MangJa_Cave" id="11" zone-1="2001" zone-10="2032" zone-11="2033" zone-12="2034" zone-13="2038" zone-14="2039" zone-15="2043" zone-16="2601" zone-17="2602" zone-18="2617" zone-19="2710" zone-2="2003" zone-20="2711" zone-21="2712" zone-22="2712" zone-23="2048" zone-24="2049" zone-25="2705" zone-26="2706" zone-27="2723" zone-28="2724" zone-29="2725" zone-3="2004" zone-30="2726" zone-31="2727" zone-32="2728" zone-33="2729" zone-34="2730" zone-35="2731" zone-36="2740" zone-37="2741" zone-38="2742" zone-4="2013" zone-5="2016" zone-6="2022" zone-7="2026" zone-8="2027" zone-9="2028"/>
+  <record alias="Heukeumrim_Cave" id="14" zone-1="2603" zone-10="2024" zone-11="2025" zone-12="2029" zone-13="2030" zone-14="2031" zone-15="2035" zone-16="2036" zone-17="2037" zone-18="2044" zone-19="2045" zone-2="2604" zone-20="2046" zone-21="2713" zone-22="2714" zone-23="2715" zone-24="2051" zone-25="2052" zone-26="2053" zone-27="2707" zone-28="2708" zone-29="2709" zone-3="2620" zone-30="2743" zone-31="2744" zone-32="2745" zone-4="2630" zone-5="2005" zone-6="2006" zone-7="2007" zone-8="2008" zone-9="2023"/>
+  <record alias="Sooryungol_Cave" id="17" zone-1="2313" zone-2="2607" zone-3="2350" zone-4="2618" zone-5="2623" zone-6="2606" zone-7="2608"/>
+  <record alias="Songamdo_Cave" id="18" zone-1="2612" zone-2="2613" zone-3="2615"/>
+  <record alias="Geoamgol_Cave" id="19" zone-1="2616"/>
+  <record alias="Tomoonjin_Cave" id="21" zone-1="3005" zone-2="3007" zone-3="3061" zone-4="3071" zone-5="3078" zone-6="3060" zone-7="3062" zone-8="3108"/>
+  <record alias="Yulsajidae_Cave" id="22" zone-1="3063" zone-10="2722" zone-2="3072" zone-3="3080" zone-4="3048" zone-5="3049" zone-6="3015" zone-7="3045" zone-8="3065" zone-9="2622"/>
+  <record alias="Sajisukrim_Cave" id="23" zone-1="3022" zone-2="3066" zone-3="3081" zone-4="3082" zone-5="3074" zone-6="3075" zone-7="3028" zone-8="3067" zone-9="3068"/>
+  <record alias="Osaekamdo_Cave" id="24" zone-1="3041" zone-10="3089" zone-2="3069" zone-3="3070" zone-4="3083" zone-5="3032" zone-6="3077" zone-7="3094" zone-8="3095" zone-9="3096"/>
+  <record alias="Angaesoop_Cave" id="31" zone-1="4401" zone-2="4506" zone-3="4511" zone-4="4420" zone-5="4500" zone-6="4402" zone-7="4510"/>
+  <record alias="NeukDaegooreung_Cave" id="32" zone-1="4531" zone-2="4521" zone-3="4522" zone-4="4525" zone-5="4537" zone-6="4520" zone-7="4530" zone-8="4535"/>
+  <record alias="Doijinongjang_Cave" id="33" zone-1="4540" zone-2="4545" zone-3="4550" zone-4="4555" zone-5="4551" zone-6="4546"/>
+  <record alias="Wuolho_Cave" id="34" zone-1="4565" zone-2="4575" zone-3="4570"/>
+  <record alias="Guidosi_Cave" id="35" zone-1="4305" zone-2="4307" zone-3="4310" zone-4="4311" zone-5="4580" zone-6="4590" zone-7="4585" zone-8="4595"/>
+  <record alias="Yulsajidae_VeryHigher_Cave" id="36" zone-1="3079"/>
+  <record alias="Osaekamdo_VeryHigher_Cave" id="37" zone-1="3076"/>
+  <record alias="NeukDaegooreung_VeryHigher_Cave" id="38"/>
+  <record alias="Doijinongjang_VeryHigher_Cave" id="39"/>
+  <record alias="Guidosi_VeryHigher_Cave" id="40"/>
+  <record alias="Angaesoop_VeryHigher_Cave" id="41" zone-1="4505"/>
+  <record alias="Wuolho_VeryHigher_Cave" id="42" zone-1="4560"/>
+</table>

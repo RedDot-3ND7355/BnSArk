@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table release-module="AIData" release-side="client" type="boss-challenge-round" version="0.03">
+  <!--F:/BNS/NCW/1.1.62.333/Client/live/bin/temp2/bosschallengerounddata.xml-->
+  <record alias="Night-windPlain-1" boss-spawn-delay="5000" id="1" round="1" spawn-effect-1="ME_BEI_R0_Common_Round_Lv1"/>
+  <record alias="Night-windPlain-2" boss-spawn-delay="5000" id="1" round="2" spawn-effect-1="ME_BEI_R0_Common_Round_Lv2"/>
+  <record alias="Night-windPlain-3" boss-spawn-delay="5000" id="1" round="3" spawn-effect-1="ME_BEI_R0_Common_Round_Lv3"/>
+  <record alias="Night-windPlain-4" boss-spawn-delay="5000" id="1" round="4" spawn-effect-1="ME_BEI_R0_Common_Round_Lv4"/>
+  <record alias="Night-windPlain-5" boss-spawn-delay="5000" id="1" round="5" spawn-effect-1="ME_BEI_R0_Common_Round_Lv5"/>
+  <record alias="Night-windPlain-6" boss-spawn-delay="5000" id="1" round="6" spawn-effect-1="ME_BEI_R0_Common_Round_Lv6"/>
+</table>

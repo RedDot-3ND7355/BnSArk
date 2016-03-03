@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table release-module="ZoneData0" release-side="client" type="classic-field-zone" version="0.12">
+  <!--F:/BNS/NCW/1.1.62.333/Client/live/bin/temp2/classicfieldzonedata.xml-->
+  <record alias="SnakeScalesVally_Classic" classic-field-zone-desc="InterD.Desc.SnakeScalesVally_Classic" classic-field-zone-name2="ClassicField.Name2.SnakeScalesVally_Classic" id="1" reward-summary="reward-summary.SnakeScalesVally_Classic" ui-filter-attraction-quest-only="y" ui-text-grade="5" zone-1="5298" zone-2="5295"/>
+  <record alias="PoHwaRan_Classic" classic-field-zone-desc="InterD.Desc.PoHwaRan_Classic" classic-field-zone-name2="ClassicField.Name2.PoHwaRan_Classic" id="3" reward-summary="reward-summary.PoHwaRan_Classic" ui-filter-attraction-quest-only="y" ui-text-grade="5" zone-1="4726" zone-2="4725"/>
+  <record alias="Haemoojin_Classic" classic-field-zone-desc="InterD.Desc.Haemoojin_Classic" classic-field-zone-name2="ClassicField.Name2.Haemoojin_Classic" id="4" reward-summary="reward-summary.Haemoojin_Classic" ui-filter-attraction-quest-only="y" ui-text-grade="5" zone-1="4727"/>
+  <record alias="HuekChang_Classic" classic-field-zone-desc="InterD.Desc.HuekChang_Classic" classic-field-zone-name2="ClassicField.Name2.HuekChang_Classic" id="5" reward-summary="reward-summary.HuekChang_Classic" ui-filter-attraction-quest-only="y" ui-text-grade="5" zone-1="6000" zone-2="6002"/>
+  <record alias="Windplain_Majuk" classic-field-zone-desc="InterD.Desc.Windplain_Majuk" classic-field-zone-name2="ClassicField.Name2.Windplain_Majuk" id="6" reward-summary="reward-summary.Windplain_Majuk" ui-filter-attraction-quest-only="y" ui-text-grade="5" zone-1="5503"/>
+  <record alias="KangRyuSi_Dark" classic-field-zone-desc="InterD.Desc.KangRyuSi_Dark" classic-field-zone-name2="ClassicField.Name2.KangRyuSi_Dark" id="7" reward-summary="reward-summary.KangRyuSi_Dark" ui-filter-attraction-quest-only="y" ui-text-grade="5" zone-1="5601"/>
+</table>

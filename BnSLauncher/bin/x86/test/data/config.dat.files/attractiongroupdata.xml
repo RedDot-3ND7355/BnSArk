@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table release-module="ZoneData0" release-side="client" type="attraction-group" version="0.1">
+  <!--F:/BNS/NCW/1.1.62.333/Client/live/bin/temp2/attractiongroupdata.xml-->
+  <record alias="JeryoungRim_Nomal"/>
+  <record alias="DeaSaMak_Nomal"/>
+  <record alias="DeaSaMak_VeryHigh"/>
+  <record alias="SuWal_Nomal"/>
+  <record alias="SuWal_VeryHigh"/>
+  <record alias="BeakChung_Nomal"/>
+  <record alias="BeakChung_VeryHigh"/>
+  <record alias="BeakChung_EpicHigh"/>
+  <record alias="JeryoungRim_EpicHigh"/>
+  <record alias="DeaSaMak_EpicHigh"/>
+  <record alias="SuWal_EpicHigh"/>
+  <record alias="Duel_Rated"/>
+  <record alias="Duel_Unrated"/>
+  <record alias="Epic_5_9_Phasing"/>
+  <record alias="JeryoungRim_VeryHigh"/>
+  <record alias="PartyBattleField"/>
+  <record alias="GeonWon_Normal"/>
+  <record alias="GeonWon_EpicHigh"/>
+</table>
