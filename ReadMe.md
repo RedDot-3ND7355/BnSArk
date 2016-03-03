@@ -1,6 +1,6 @@
-Blade and Soul Na/EU Custom Launcher
-Coded: Arisu Miyako
-MiyakoProductions: http://miyakoproductions.tumblr.com
+Blade and Soul Swiss Army Knife
+Coded by: Arisu Miyako
+MiyakoProductions: http://miyako.pro
 
 Disclaimer: Using mods is against the Terms of Service with NCSoft. Therefore the use of any mods is at one's own risk. The author of this software assumes no liability for any damages such a corrupted game or a banned account. Please be responsible when modding games.
 
