@@ -1,6 +1,16 @@
-Blade and Soul Swiss Army Knife
-Coded by: Arisu Miyako
-MiyakoProductions: http://miyako.pro
+███╗   ███╗██╗██╗   ██╗ █████╗ ██╗  ██╗ ██████╗ 
+████╗ ████║██║╚██╗ ██╔╝██╔══██╗██║ ██╔╝██╔═══██╗
+██╔████╔██║██║ ╚████╔╝ ███████║█████╔╝ ██║   ██║
+██║╚██╔╝██║██║  ╚██╔╝  ██╔══██║██╔═██╗ ██║   ██║
+██║ ╚═╝ ██║██║   ██║   ██║  ██║██║  ██╗╚██████╔╝
+╚═╝     ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+▀▄▀▄    Arisu Miyako - http://miyako.pro    ▄▀▄▀
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 Disclaimer: Using mods is against the Terms of Service with NCSoft. Therefore the use of any mods is at one's own risk. The author of this software assumes no liability for any damages such a corrupted game or a banned account. Please be responsible when modding games.
 
@@ -19,7 +29,7 @@ Mods:
 + Close the Mod Manager and click on "Play" to enjoy your mods.
 
 Splash Screen Replacement:
-+ Can either click on the "Browse" button or manually type the path in the text box.
++ Can either click on a file listed on the left side, the "Browse" button or manually type the path in the text box.
 + A backup of the original splash screen is automatically saved and clicking the "Restore" button will restore it.
 + Press the "Apply" button to apply the new splash screen.
 + Start the game as normal.
@@ -38,11 +48,19 @@ Data Editor
 ++ Press the "Revert" button to restore the original files and remove your changes.
 +++ Hotkeys: Find (Ctrl+F), Replace (Ctrl+H), Column Selection (Alt + Click and Drag)
 
-Todo:
-+ Texture replacement
-+ Audio Replacement
-
 Change Log:
+Version 1.5
++ Greatly optimized the code
++ No longer depends on ufmod.dll
++ No longer needs mods.db
++ Patches the client to allow for bypassing the launcher
++ Patches are retrieved from http://miyako.pro to remain up to date
++ Splash Editor now has a list of files found inside of /splash/
++ Creates directories that aren't found
++ Added 3 toggles to opitimize BnS
++ New about window and song
++ Added a button to open a chat room with Miyako
+
 Version 1.4
 + Rewrote and improved the data editor.
 
@@ -71,6 +89,7 @@ Version 1.0
 ++ If the NA client is installed, only English works.
 
 Credits:
++ Anivay - Laucher Artwork ( http://warriorgriffinheart.tumblr.com/ )
 + Swift - Maid Splash Screen ( http://www.bladeandsouldojo.com/topic/159222-my-first-splash-image-for-army-knife-12/ )
 + ronny1982 - Bnsdat ( http://www.bladeandsouldojo.com/topic/71574-release-bnsdat-xmldat-de-compression-tool/ )
 + sakuma2baby919 - Lyn Swimsuit Mods ( http://bbs.17173.com/forum.php?mod=viewthread&tid=8533348&extra=page%3D1%26filter%3Dtypeid%26typeid%3D1805%26typeid%3D1805 )
