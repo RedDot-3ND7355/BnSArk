@@ -1,0 +1,24 @@
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.Properties.Resources.resources
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.csproj.GenerateResource.Cache
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\bin\x86\test\BnSLauncher.exe
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\bin\x86\test\BnSLauncher.pdb
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.exe
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.pdb
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.csprojResolveAssemblyReference.cache
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.FormMain.resources
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.FormAbout.resources
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.FormMods.resources
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\bin\x86\test\BnSLauncher.exe.config
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\bin\x86\test\BnSLauncher.exe.config
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.exe
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.pdb
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\bin\x86\test\BnSLauncher.exe
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\bin\x86\test\BnSLauncher.pdb
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.csprojResolveAssemblyReference.cache
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.FormAbout.resources
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.FormMods.resources
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.FormMain.resources
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.Properties.Resources.resources
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\test\BnSLauncher.csproj.GenerateResource.Cache
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\bin\x86\test\FastColoredTextBox.dll
+D:\ssd backup\new\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\bin\x86\test\FastColoredTextBox.xml

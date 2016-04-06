@@ -1,0 +1,85 @@
+
+#include "d3m.hsp"
+#include "a2d.hsp"
+#include "hspogg.as"
+
+	title "About"
+	screen 0, 480, 360 ; AMIGA / PC-98
+
+
+	; 使用するパーティクルを作成
+	d3mkparticle 0, 128, 0, 255
+	d3mkparticle 1,  255, 0, 128 ; 青
+
+	dmmini
+	dmmload "theme.ogg", 0
+	dmmloop 0
+	dmmplay 0
+	
+
+*mainloop
+	ct++
+
+	redraw 0
+
+	color , 8, 24
+	
+	boxf
+
+
+
+	; カメラ座標を回転させる (上向き)
+	d3setcam cos(0.005 * ct) * 2000, sin(0.005 * ct) * 2000, 0,  0, 0, 1000
+
+
+
+	; パーティクルを描画
+	randomize 0
+	repeat 500
+
+		x = rnd(8000) - 4000
+		y = rnd(8000) - 4000
+		z = rnd(8000)
+		v = rnd(50) + 50
+
+		z = (ct * v + z) \ 8000 - 8000
+
+		; 雪の後ろの光彩
+		gmode 5, , , 64
+		d3particle 1,  x, y, -z, 150
+
+		; 雪パーティクル
+		gmode 5, , , 255
+
+		d3particlem  0, 50
+
+	loop
+	gosub *drawtext
+
+	redraw
+	await 30
+
+	goto *mainloop
+
+*drawtext
+	; 仮想イメージ 0 を作成
+	alCreateImage 0, 480, 360
+	if stat = -1 : dialog "GDI+ を初期化できませんでした。" : end
+
+	; フォントスタイル、ブラシの組み合わせ
+	alFont "Arial", 30, 2
+	alColor 180, 64, 200, 200
+	alDrawText "Code/Music: Miyako Productions"
+	alDrawText "http://miyako.pro" , ,40
+	alDrawText "Thanks to:", 40, 90
+	alDrawText "Anivay", 60, 120
+	alDrawText "Cuddlybunny",55, 150
+	alDrawText "Kinyco",55, 180
+	alDrawText "Sakuma2baby919", 55, 210
+	alDrawText "Swift", 55, 240
+	alDrawText "Ronny1982", 55, 270
+
+	; 仮想イメージ 0 から HSP スクリーンにコピー
+	alCopyImageToScreen 0, 0
+	redraw
+	return

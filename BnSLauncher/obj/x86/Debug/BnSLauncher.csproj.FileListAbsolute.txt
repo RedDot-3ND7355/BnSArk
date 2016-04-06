@@ -1,0 +1,6 @@
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\bin\Debug\BnSLauncher.exe
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\bin\Debug\BnSLauncher.pdb
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\Debug\BnSLauncher.Properties.Resources.resources
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\Debug\BnSLauncher.csproj.GenerateResource.Cache
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\Debug\BnSLauncher.exe
+c:\users\arisu\documents\visual studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\Debug\BnSLauncher.pdb

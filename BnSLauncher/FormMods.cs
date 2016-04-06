@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using Microsoft.Win32;
@@ -28,25 +25,18 @@ namespace BnSLauncher
         string NewSplash = "";
         string NewSplashID = "";
         string SelectedMod = "";
-        string EnabledMods = "";
+        string EnabledMods = (string)Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Miyako\BnSArk", "mods", ",");
         string ActiveDataFile = "";
         string TempPath = Path.GetTempPath();
         string AppPath = Path.GetDirectoryName(Application.ExecutablePath);
         string XmlSavePath = "";
         bool PathsFound = false;
-        // Memory Addresses and Offsets
-        /*
-        string ClientProcess = "Client.exe";
-        string SlidersBaseModule = "bsengine_Shipping.dll";
-        string SlidersBaseAddr = "0x01FD4318";
-        string SlidersGonFOfs = "0x10C0";
-        string SlidersGonMOfs = "0x96C";
-        string SlidersJinFOfs = "0x12D8";
-        string SlidersJinMOfs = "0xB84";
-        string SlidersLynFOfs = "0x11CC";
-        string SlidersLynMOfs = "0xA78";
-        string SlidersYunFOfs = "0xFB4";
-        */
+        bool LoadingDisabled = false;
+        bool LoadingDisabledInit = false;
+        string NoTextureStreamingBool = (string)Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Miyako\BnSArk", "NoTextureStreaming", "false");
+        string UnattendedBool = (string)Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Miyako\BnSArk", "Unattended", "false");
+        bool NoTextureStreamingInit = false;
+        bool UnattendedInit = false;
 
         public FormMods()
         {
@@ -63,6 +53,7 @@ namespace BnSLauncher
 
         private void FormMods_Load(object sender, EventArgs e)
         {
+
             // Set tool tip values
             //toolTip1.SetToolTip(label1, "Not Available Yet...");
             // Set config.dat as default for the editor
@@ -85,16 +76,29 @@ namespace BnSLauncher
             {
                 toolStripStatusLabel1.Text = "Mod Folder Not Found!";
             }
+            // List Splash Images
+            try
+            {
+                DirectoryInfo dinfo2 = new DirectoryInfo(@".\\splash\\");
+                FileInfo[] Files2 = dinfo2.GetFiles("*.bmp");
+                foreach (FileInfo file2 in Files2)
+                {
+                    listBox1.Items.Add(file2.Name);
+                }
+                listBox1.SelectedIndex = 0;
+            }
+            catch
+            {
+
+            }
+
             // Select Mods
             try {
-                using (StreamReader reader = new StreamReader(".\\mods.db"))
-                {
-                    reader.ReadToEnd().Split(',').ToList().ForEach(item =>
+                    EnabledMods.Split(',').ToList().ForEach(item =>
                     {
                         var index = checkedListBox1.Items.IndexOf(item);
                         checkedListBox1.SetItemChecked(index, true);
                     });
-                }
             }
             catch
             {
@@ -169,6 +173,18 @@ namespace BnSLauncher
                     File.Copy(DatPath + "config.dat", DatPath + "backup\\config.dat");
                     File.Copy(DatPath + "xml.dat", DatPath + "backup\\xml.dat");
                 }
+                if (!Directory.Exists(ModPath)) { Directory.CreateDirectory(ModPath); }
+                if (!Directory.Exists(ModPath + "\\..\\loading")) { Directory.CreateDirectory(ModPath + "\\..\\loading"); }
+                if (File.Exists(ModPath + "\\..\\loading\\00009368.bak"))
+                {
+                    LoadingDisabled = true;
+                    checkBox3.Checked = true;
+                }
+                LoadingDisabledInit = true;
+                if (NoTextureStreamingBool == "true") { checkBox2.Checked = true; }
+                NoTextureStreamingInit = true;
+                if (UnattendedBool == "true") { checkBox1.Checked = true; }
+                UnattendedInit = true;
             }
             else
             {
@@ -208,11 +224,7 @@ namespace BnSLauncher
                 checkedListBox1.SetItemCheckState(i, CheckState.Unchecked);
             }
             EnabledMods = String.Join(",", checkedListBox1.CheckedItems.Cast<string>().ToArray());
-            using (StreamWriter writer = new StreamWriter(".\\mods.db"))
-            {
-                // Use string interpolation syntax to make code clearer.
-                writer.WriteLine(EnabledMods + ",");
-            }
+            Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Miyako\BnSArk", "mods", EnabledMods + ",", RegistryValueKind.String);
             toolStripStatusLabel1.Text = "Client Restored!";
         }
 
@@ -242,19 +254,27 @@ namespace BnSLauncher
             }
 
             EnabledMods = String.Join(",", checkedListBox1.CheckedItems.Cast<string>().ToArray());
-            using (StreamWriter writer = new StreamWriter(".\\mods.db"))
-            {
-                // Use string interpolation syntax to make code clearer.
-                writer.WriteLine(EnabledMods + ",");
-            }
+            Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Miyako\BnSArk", "mods", EnabledMods + ",", RegistryValueKind.String);
             toolStripStatusLabel1.Text = "Mods Applied!";
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             SelectedMod = checkedListBox1.SelectedItem.ToString();
-            textBox12.Text = File.ReadAllText(".\\mods\\" + SelectedMod + "\\desc.txt");
-            pictureBox2.Image = Image.FromFile(".\\mods\\" + SelectedMod + "\\preview.png");
+            try {
+                textBox12.Text = File.ReadAllText(".\\mods\\" + SelectedMod + "\\desc.txt");
+            }
+            catch
+            {
+                textBox12.Text = "No Description Found";
+            }
+            try {
+                pictureBox2.Image = Image.FromFile(".\\mods\\" + SelectedMod + "\\preview.png");
+            }
+            catch
+            {
+                pictureBox2.Image = null;
+            }
         }
 
         // End section for upk manager
@@ -276,12 +296,23 @@ namespace BnSLauncher
             }
         }
 
+        // Splash Selected
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            pictureBox1.Image.Dispose();
+            NewSplash = AppPath + "\\splash\\" + listBox1.SelectedItem.ToString();
+            textBox1.Text = NewSplash;
+            pictureBox1.Image = Image.FromFile(NewSplash);
+            toolStripStatusLabel1.Text = "Splash Screen Loaded!";
+        }
+
         // Apply new image
         private void button4_Click(object sender, EventArgs e)
         {
             pictureBox1.Image.Dispose();
             try
             {
+                File.Delete(SplashPath + "Splash.bmp");
                 File.Copy(NewSplash, SplashPath + "Splash.bmp", true);
                 toolStripStatusLabel1.Text = "Splash Screen Applied!";
             }
@@ -306,7 +337,7 @@ namespace BnSLauncher
                 toolStripStatusLabel1.Text = "Error: Could not replace image!";
             }
             pictureBox1.Image = Image.FromFile(SplashPath + "Splash.bmp");
-            }
+        }
         // End of Splash Screen replacer
 
         // Data File Editor
@@ -614,8 +645,81 @@ namespace BnSLauncher
                 toolStripStatusLabel1.Text = "Error: Failed to save file!";
             }
         }
+        
+        // Disable Message Boxes
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (UnattendedInit == false) { return; }
+            else
+            {
+                if (UnattendedBool == "false")
+                {
+                    UnattendedBool = "true";
+                    Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Miyako\BnSArk", "Unattended", "true", RegistryValueKind.String);
+                }
+                else
+                {
+                    UnattendedBool = "false";
+                    Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Miyako\BnSArk", "Unattended", "false", RegistryValueKind.String);
+                }
+            }
+        }
+        // Disable Texture Stream
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (NoTextureStreamingInit == false) { return; }
+            else
+            {
+                if (NoTextureStreamingBool == "false")
+                {
+                    NoTextureStreamingBool = "true";
+                    Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Miyako\BnSArk", "NoTextureStreaming", "true", RegistryValueKind.String);
+                }
+                else
+                {
+                    NoTextureStreamingBool = "false";
+                    Registry.SetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Miyako\BnSArk", "NoTextureStreaming", "false", RegistryValueKind.String);
+                }
+            }
+        }
+        // Disable Loading Screens
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (LoadingDisabledInit == false) { return; }
+            else {
+                if (LoadingDisabled == false)
+                {
+                    LoadingDisabled = true;
+                    try
+                    {
+                        File.Move(ModPath + "\\..\\Loading.pkg", ModPath + "\\..\\loading\\loading.bak");
+                        File.Move(ModPath + "\\..\\00009368.upk", ModPath + "\\..\\loading\\00009368.bak");
+                        toolStripStatusLabel1.Text = "Loading screens disabled.";
+                    }
+                    catch
+                    {
+                        toolStripStatusLabel1.Text = "Error: Could not disable loading screens!";
+                    }
+                }
+                else if (LoadingDisabled == true)
+                {
+                    LoadingDisabled = false;
+                    try
+                    {
+                        File.Move(ModPath + "\\..\\loading\\loading.bak", ModPath + "\\..\\Loading.pkg");
+                        File.Move(ModPath + "\\..\\loading\\00009368.bak", ModPath + "\\..\\00009368.upk");
+                        toolStripStatusLabel1.Text = "Loading screens enabled.";
+                    }
+                    catch
+                    {
+                        toolStripStatusLabel1.Text = "Error: Could not enable loading screens!";
+                    }
+                }
+            }
+        }
+
         /*
-        End of Code Editor
-        */
+End of Code Editor
+*/
     }
 }

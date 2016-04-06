@@ -1,0 +1,10 @@
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\bin\Release\BnSLauncher.exe.config
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\Release\BnSLauncher.FormAbout.resources
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\Release\BnSLauncher.FormMods.resources
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\Release\BnSLauncher.FormMain.resources
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\Release\BnSLauncher.Properties.Resources.resources
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\Release\BnSLauncher.csproj.GenerateResource.Cache
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\bin\Release\BnSLauncher.exe
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\bin\Release\BnSLauncher.pdb
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\Release\BnSLauncher.exe
+C:\Users\Arisu\Documents\Visual Studio 2010\Projects\BnSLauncher\BnSLauncher\obj\x86\Release\BnSLauncher.pdb
