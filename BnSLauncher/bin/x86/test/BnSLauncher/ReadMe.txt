@@ -49,6 +49,11 @@ Data Editor
 +++ Hotkeys: Find (Ctrl+F), Replace (Ctrl+H), Column Selection (Alt + Click and Drag)
 
 Change Log:
+Version 1.6 BETA (Unofficial by Endless)
++ Patches the "No loading screen" properly for latest BnS version(works for any language). 
++ Two seperate options for wether using old or new version.
+++ UNTESTED FOR MODS. Please be careful using this BETA.
+
 Version 1.5
 + Greatly optimized the code
 + No longer depends on ufmod.dll
